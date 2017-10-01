@@ -1,1 +1,7 @@
-# BDSA2017.Assignment07
+# Assignment #7: Week 41
+
+## Software Engineering
+
+### Exercise 1
+
+## C&#35;
