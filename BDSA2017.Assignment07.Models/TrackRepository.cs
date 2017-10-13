@@ -52,6 +52,7 @@ namespace BDSA2017.Assignment07.Models
 
         public IQueryable<TrackDTO> Read()
         {
+            
            return from t in _context.Tracks
                   select new TrackDTO
                   {
@@ -64,6 +65,9 @@ namespace BDSA2017.Assignment07.Models
                       MaxCars = t.MaxCars,
                       NumberOfRaces = t.Races.Count()
                   };
+
+
+      
         }
 
         public async Task<bool> Update(TrackUpdateDTO track)

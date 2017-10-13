@@ -19,7 +19,7 @@
     "BDSA2017.Assignment07.Web": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/Tracks",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

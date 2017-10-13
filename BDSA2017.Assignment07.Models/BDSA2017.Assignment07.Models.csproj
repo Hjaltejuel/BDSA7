@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Moq" Version="4.7.142" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BDSA2017.Assignment07.Entities\BDSA2017.Assignment07.Entities.csproj" />
   </ItemGroup>
 
